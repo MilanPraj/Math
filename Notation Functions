@@ -1,5 +1,5 @@
 function enot(o){ //E Notation Script
-    return o/Math.pow(10,Math.floor(Math.log(o)/Math.log(10)))+"e"+Math.floor(Math.log(o)/Math.log(10))
+    return o/Math.pow(10,Math.floor(Math.log(Math.abs(o))/Math.log(10)))+"e"+Math.floor(Math.log(Math.abs(o))/Math.log(10))
 }
 function strnot(n){ //Number String Script
     var a=0;
